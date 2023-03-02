@@ -1,9 +1,9 @@
 # z_cleaner
 99.99%
 
-Installation:
+Installation:\
 `git clone git@github.com:5tirner/z_cleaner.git`
 
-USAGE
+USAGE:\
 `sh z_cleaner.sh`
 `bash z_cleaner.sh`
