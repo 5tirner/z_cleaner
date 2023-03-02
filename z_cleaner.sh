@@ -1,3 +1,15 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    z_cleaner.sh                                       :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: zasabri <zasabri@student.42.fr>            +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2023/03/02 20:47:13 by zasabri           #+#    #+#              #
+#    Updated: 2023/03/02 20:47:21 by zasabri          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
 #you space befor cleaning
 AT_START=$(df -h | grep "$USER" | awk '{print($4)}' | tr 'i' 'B')
 echo "Your Storage Befor cleaning: $AT_START"
